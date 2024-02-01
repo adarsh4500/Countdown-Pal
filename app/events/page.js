@@ -3,7 +3,7 @@ import EventForm from "../components/eventform";
 import EventList from "../components/eventlist";
 
 const Page = async () => {
-  const response = await fetch("http://localhost:3000//api/hello", {
+  const response = await fetch("http://localhost:3000/api/getevents", {
     cache: "no-store",
   });
   const responseData = await response.json();
