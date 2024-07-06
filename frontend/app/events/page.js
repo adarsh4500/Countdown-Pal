@@ -3,10 +3,11 @@ import EventForm from "../components/eventform";
 import EventList from "../components/eventlist";
 
 const Page = async () => {
-  const response = await fetch("http://localhost:3000/api/getevents", {
+  const response = await fetch("http://localhost:8080/getevents", {
     cache: "no-store",
   });
   const responseData = await response.json();
+  console.log(responseData);
   return (
     <div className="flex h-screen">
       <section className="add-event-section w-[50vw] flex items-center justify-center overflow-y-auto">
@@ -14,7 +15,7 @@ const Page = async () => {
       </section>
       <div className="w-[2px] bg-white"></div>
       <section className="events-list-section w-[50vw] flex flex-col items-center justify-center overflow-y-auto">
-        <EventList events={responseData}/>
+        <EventList events={responseData} />
       </section>
     </div>
   );

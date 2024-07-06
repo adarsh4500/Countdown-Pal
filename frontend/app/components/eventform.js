@@ -36,7 +36,7 @@ const EventForm = () => {
             Event Time
           </label>
         </div>
-        <div className="relative z-0 w-full mb-5 group">
+        {/* <div className="relative z-0 w-full mb-5 group">
           <label className="block text-sm font-medium text-gray-500 mb-1">
             Event Type
           </label>
@@ -49,7 +49,7 @@ const EventForm = () => {
             <option value="personal">Personal</option>
             <option value="public">Public</option>
           </select>
-        </div>
+        </div> */}
         <div className="relative z-0 w-full mb-5 group">
           <textarea
             name="event_description"

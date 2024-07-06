@@ -2,7 +2,7 @@ import Timer from "@/app/components/timer";
 
 const Page = async (props) => {
   const id = props.params.id;
-  const uri = `http://localhost:3000/api/geteventdetails/${id}`;
+  const uri = `http://localhost:8080/geteventdetails/${id}`;
   const response = await fetch(uri, {
     cache: "no-store",
   });

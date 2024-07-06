@@ -5,6 +5,7 @@ const Intro = () => {
         <h2 className="text-5xl">
           Introducing Countdown Pal: Your Ultimate Event Countdown Companion!
         </h2>
+        <br/>
         <div>
           <h3>⏰ Never Miss a Moment with Countdown Pal!</h3>
           <div>
@@ -13,6 +14,7 @@ const Intro = () => {
             birthday, vacation, or special occasion, Countdown Pal is your go-to
             companion for tracking countdowns and sharing the excitement.
           </div>
+          <br/>
           <h3>👫 Share the Anticipation:</h3>
           <div>
             Countdown Pal lets you effortlessly share your countdowns with
@@ -20,12 +22,14 @@ const Intro = () => {
             birthday parties to group vacations, make every event memorable by
             counting down together.{" "}
           </div>
+          <br/>
           <h3>🎨 Personalized Countdown Experience:</h3>{" "}
           <div>
             Customize your countdowns with unique themes, backgrounds, and
             emojis. Countdown Pal lets you add a personal touch to each
             countdown, making it as special as the event itself.
           </div>
+          <br/>
         </div>
       </div>
     </div>

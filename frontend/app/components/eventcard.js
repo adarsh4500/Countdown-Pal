@@ -3,15 +3,14 @@ import React from "react";
 
 const EventCard = ({ event }) => {
   return (
-    <div className="flex">
+    <div className="flex mx-20">
       <Link
         href={"/events/" + event.id}
         className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row w-full hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
       >
-        {" "}
-        <div className=" container h-32 w-32">
+        <div className="container h-32 w-32 m-0 p-0">
           <img
-            className="object-fill max-h-full rounded-t-lg h-32 rounded-none md:rounded-s-lg"
+            className="object-cover max-h-full rounded-t-lg h-32 rounded-none md:rounded-s-lg"
             src={event.img}
             alt="event related image"
           />

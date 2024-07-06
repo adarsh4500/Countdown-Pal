@@ -2,7 +2,7 @@ import Link from "next/link";
 const Header = () => {
   return (
     <>
-      <div className="flex flex-row h-24 items-center text-white bg-white bg-opacity-5">
+      <div className="flex flex-row p-4 items-center text-white bg-white bg-opacity-5">
         <Link href="/">
           <h1 className=" text-3xl font-medium ml-8 mr-auto">Countdown Pal</h1>
         </Link>
